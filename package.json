@@ -1,0 +1,31 @@
+{
+  "name": "@phosphor-icons/theme",
+  "displayName": "Phosphor Theme",
+  "description": "A dark theme for VS Code from the Phosphor Icons team",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Phosphor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ph-dark.color-theme.json"
+      },
+      {
+        "label": "Phosphor Dark Min",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ph-dark-min.color-theme.json"
+      },
+      {
+        "label": "Phosphor Dark Saturated",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ph-dark-saturated.color-theme.json"
+      }
+    ]
+  }
+}
