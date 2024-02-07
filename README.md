@@ -1,4 +1,4 @@
-<img src="/meta/phosphor-mark-tight-black.png" width="128" align="right" />
+<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/phosphor-mark-tight-black.png" width="128" align="right" />
 
 # @phosphor-icons/theme
 
@@ -17,11 +17,11 @@
 
 ### Phosphor Dark
 
-<img src="/meta/theme-dark.png" />
+<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/theme-dark.png" />
 
 ### Phosphor Dark Min
 
-<img src="/meta/theme-min.png" />
+<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/theme-min.png" />
 
 ## Our Related Projects
 
