@@ -1,0 +1,1260 @@
+{
+  "hidesExplorerArrows": true,
+  "fonts": [
+    {
+      "id": "phosphor",
+      "src": [
+        {
+          "path": "../assets/Phosphor.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal",
+      "size": "150%"
+    },
+    {
+      "id": "phosphor-fill",
+      "src": [
+        {
+          "path": "../assets/Phosphor-Fill.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "account": {
+      "fontCharacter": "\\eda1"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\eda1"
+    },
+    "activate-breakpoints": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed39"
+    },
+    "activity-bar-left": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ece6"
+    },
+    "activity-bar-right": {
+      "fontCharacter": "\\e030"
+    },
+    "add": {
+      "fontCharacter": "\\ec86"
+    },
+    "alert": {
+      "fontCharacter": "\\e030"
+    },
+    "archive": {
+      "fontCharacter": "\\eae3"
+    },
+    "array": {
+      "fontCharacter": "\\e9d0"
+    },
+    "arrow-both": {
+      "fontCharacter": "\\e960"
+    },
+    "arrow-circle-down": {
+      "fontCharacter": "\\e930"
+    },
+    "arrow-circle-left": {
+      "fontCharacter": "\\e933"
+    },
+    "arrow-circle-right": {
+      "fontCharacter": "\\e934"
+    },
+    "arrow-circle-up": {
+      "fontCharacter": "\\e935"
+    },
+    "arrow-down": {
+      "fontCharacter": "\\e93a"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\e953"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\e95c"
+    },
+    // "arrow-small-down": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "arrow-small-left": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "arrow-small-right": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "arrow-small-up": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "arrow-swap": {
+      "fontCharacter": "\\e966"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\e97d"
+    },
+    "auxiliarybar-left-layout-icon": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ece5"
+    },
+    "auxiliarybar-left-off-layout-icon": {
+      "fontCharacter": "\\ed21"
+    },
+    "auxiliarybar-right-layout-icon": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed1e"
+    },
+    "auxiliarybar-right-off-layout-icon": {
+      "fontCharacter": "\\ed21"
+    },
+    // "azure": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "azure-devops": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "beaker": {
+      "fontCharacter": "\\eb19"
+    },
+    "beaker-stop": {
+      "fontCharacter": "\\eb19"
+    },
+    "bell": {
+      "fontCharacter": "\\e9af"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\e9b0"
+    },
+    "bell-slash": {
+      "fontCharacter": "\\e9b5"
+    },
+    "bell-slash-dot": {
+      "fontCharacter": "\\e9b5"
+    },
+    "bold": {
+      "fontCharacter": "\\ed5d"
+    },
+    "book": {
+      "fontCharacter": "\\e9c8"
+    },
+    "bookmark": {
+      "fontCharacter": "\\e9c3"
+    },
+    "bracket": {
+      "fontCharacter": "\\e9d0"
+    },
+    // "bracket-dot": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "bracket-error": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "breadcrumb-separator": {
+      "fontCharacter": "\\ea00"
+    },
+    "breakpoints-activate": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed39"
+    },
+    "breakpoints-remove-all": {
+      // FIXME: this is backspace
+      "fontCharacter": "\\e98d"
+    },
+    "breakpoints-view-icon": {
+      // FIXME: this is bug
+      "fontCharacter": "\\e9da"
+    },
+    "briefcase": {
+      "fontCharacter": "\\e9d4"
+    },
+    "broadcast": {
+      "fontCharacter": "\\e9d6"
+    },
+    "browser": {
+      "fontCharacter": "\\e9d8"
+    },
+    "bug": {
+      "fontCharacter": "\\e9da"
+    },
+    "calendar": {
+      "fontCharacter": "\\e9e3"
+    },
+    "call-incoming": {
+      "fontCharacter": "\\ec6d"
+    },
+    "call-outgoing": {
+      "fontCharacter": "\\ec6e"
+    },
+    "callhierarchy-incoming": {
+      "fontCharacter": "\\ec6d"
+    },
+    "callhierarchy-outgoing": {
+      "fontCharacter": "\\ec6e"
+    },
+    "callstack-view-icon": {
+      // queue
+      "fontCharacter": "\\eca0"
+    },
+    "callstack-view-session": {
+      "fontCharacter": "\\e9da"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\ed57"
+    },
+    // "centerLayoutIcon": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "check": {
+      "fontCharacter": "\\ea30"
+    },
+    "check-all": {
+      "fontCharacter": "\\ea33"
+    },
+    "checklist": {
+      "fontCharacter": "\\ebcc"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\e9fe"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\e9ff"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\ea00"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\ea01"
+    },
+    "chip": {
+      "fontCharacter": "\\ea72"
+    },
+    "chrome-close": {
+      // x
+      "fontCharacter": "\\eddb"
+    },
+    "chrome-maximize": {
+      // square
+      "fontCharacter": "\\ed1c"
+    },
+    "chrome-minimize": {
+      // minus
+      "fontCharacter": "\\ebf8"
+    },
+    "chrome-restore": {
+      // copy-simple
+      "fontCharacter": "\\ea6e"
+    },
+    "circle": {
+      "fontCharacter": "\\eaab"
+    },
+    "circle-filled": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eaab"
+    },
+    "circle-large": {
+      "fontCharacter": "\\ea37"
+    },
+    "circle-large-filled": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ea38"
+    },
+    "circle-large-outline": {
+      "fontCharacter": "\\ea37"
+    },
+    "circle-outline": {
+      "fontCharacter": "\\eaab"
+    },
+    "circle-slash": {
+      "fontCharacter": "\\ec94"
+    },
+    "circle-small": {
+      "fontCharacter": "\\eaab"
+    },
+    "circle-small-filled": {
+      "fontCharacter": "\\eaab"
+    },
+    "circuit-board": {
+      "fontCharacter": "\\ea3f"
+    },
+    "clear-all": {
+      // backspace
+      "fontCharacter": "\\e98d"
+    },
+    "clippy": {
+      "fontCharacter": "\\ea41"
+    },
+    "clock": {
+      // clock-counter-clockwise
+      "fontCharacter": "\\ea46"
+    },
+    "clone": {
+      // stamp
+      "fontCharacter": "\\ed27"
+    },
+    "close": {
+      "fontCharacter": "\\eddb"
+    },
+    "close-all": {
+      // x-square
+      "fontCharacter": "\\eddd"
+    },
+    "close-dirty": {
+      // dot-outline-fill
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eaab"
+    },
+    "cloud": {
+      "fontCharacter": "\\ea48"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\ea49"
+    },
+    "cloud-upload": {
+      "fontCharacter": "\\ea4a"
+    },
+    "code": {
+      "fontCharacter": "\\ea58"
+    },
+    "coffee": {
+      "fontCharacter": "\\ea5d"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\ebfa"
+    },
+    "color-mode": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ea39"
+    },
+    "combine": {
+      // unite-square
+      "fontCharacter": "\\ed9c"
+    },
+    "comment": {
+      "fontCharacter": "\\ea21"
+    },
+    "comment-add": {
+      "fontCharacter": "\\ea21"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\ea29"
+    },
+    "comment-draft": {
+      // chat-dots
+      "fontCharacter": "\\ea28"
+    },
+    "comment-unresolved": {
+      // chat-dots
+      "fontCharacter": "\\ea28"
+    },
+    "comments-view-icon": {
+      "fontCharacter": "\\ea29"
+    },
+    "compare-changes": {
+      "fontCharacter": "\\eb51"
+    },
+    "compass": {
+      "fontCharacter": "\\ea63"
+    },
+    "compass-active": {
+      // FIXME: different from regular compass
+      "fontCharacter": "\\ea63"
+    },
+    "compass-dot": {
+      // FIXME: different from regular compass
+      "fontCharacter": "\\ea63"
+    },
+    "configure-layout-icon": {
+      // layout
+      "fontCharacter": "\\ebb7"
+    },
+    "console": {
+      "fontCharacter": "\\ed55"
+    },
+    "copilot": {
+      "fontCharacter": "\\ecb4"
+    },
+    "copy": {
+      "fontCharacter": "\\ea6b"
+    },
+    "credit-card": {
+      "fontCharacter": "\\ea73"
+    },
+    "dash": {
+      // minus
+      "fontCharacter": "\\ebf8"
+    },
+    "dashboard": {
+      // gauge
+      "fontCharacter": "\\eb41"
+    },
+    "database": {
+      "fontCharacter": "\\ea8f"
+    },
+    "debug": {
+      // bug
+      "fontCharacter": "\\e9da"
+    },
+    "debug-all": {
+      // FIXME different from bug
+      "fontCharacter": "\\e9da"
+    },
+    "debug-alt": {
+      // FIXME different from bug
+      "fontCharacter": "\\e9da"
+    },
+    "debug-alt-small": {
+      // FIXME different from bug
+      "fontCharacter": "\\e9da"
+    },
+    // "debug-breakpoint": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-conditional": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaaa"
+    // },
+    // "debug-breakpoint-conditional-disabled": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaaa"
+    // },
+    // "debug-breakpoint-conditional-unverified": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaaa"
+    // },
+    // "debug-breakpoint-data": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-data-disabled": {
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-data-unverified": {
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-disabled": {
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-function": {
+    //   "fontId": "phosphor-fill",
+    //   "fontCharacter": "\\eaab"
+    // },
+    // "debug-breakpoint-function-disabled": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-function-unverified": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-log": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-log-disabled": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-log-unverified": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-unsupported": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "debug-breakpoint-unverified": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "debug-collapse-all": {
+      // minus-square
+      "fontCharacter": "\\ebfa"
+    },
+    "debug-configure": {
+      "fontCharacter": "\\eb44"
+    },
+    "debug-console": {
+      "fontCharacter": "\\ed55"
+    },
+    "debug-console-clear-all": {
+      // backspace
+      "fontCharacter": "\\e98d"
+    },
+    "debug-console-evaluation-input": {
+      "fontCharacter": "\\e95c"
+    },
+    "debug-console-evaluation-prompt": {
+      "fontCharacter": "\\ea00"
+    },
+    "debug-console-view-icon": {
+      "fontCharacter": "\\ed55"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\ec81"
+    },
+    // "debug-continue-small": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "debug-coverage": {
+      "fontCharacter": "\\e030"
+    },
+    "debug-disconnect": {
+      // plugs
+      "fontCharacter": "\\ec84"
+    },
+    "debug-gripper": {
+      // dots-six-vertical
+      "fontCharacter": "\\eaae"
+    },
+    "debug-inspect-memory": {
+      // list-magnifying-glass
+      "fontCharacter": "\\ebce"
+      // calculator
+      // "fontCharacter": "\\e9e2"
+    },
+    "debug-line-by-line": {
+      // queue
+      "fontCharacter": "\\eca0"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\ec50"
+    },
+    "debug-remove-config": {
+      "fontCharacter": "\\ed8a"
+    },
+    "debug-rerun": {
+      // arrows-counter-clockwise
+      "fontCharacter": "\\e95e"
+    },
+    "debug-restart": {
+      // arrow-counter-clockwise
+      "fontCharacter": "\\e939"
+    },
+    "debug-restart-frame": {
+      "fontCharacter": "\\ed07"
+    },
+    "debug-reverse-continue": {
+      "fontCharacter": "\\e030"
+    },
+    "debug-stackframe": {
+      // tag-simple
+      "fontCharacter": "\\ed4c"
+    },
+    "debug-stackframe-active": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed4c"
+    },
+    "debug-stackframe-focused": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed4c"
+    },
+    // "debug-stackframe-dot": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "debug-start": {
+      "fontCharacter": "\\ec7e"
+    },
+    "debug-step-back": {
+      "fontCharacter": "\\e924"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\e925"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\e954"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\e959"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\ed32"
+    },
+    "default-view-icon": {
+      "fontCharacter": "\\e9d8"
+    },
+    "diff": {
+      "fontCharacter": "\\eb51"
+    },
+    "diff-editor-next-change": {
+      "fontCharacter": "\\e93a"
+    },
+    "diff-editor-previous-change": {
+      "fontCharacter": "\\e97d"
+    },
+    "diff-editor-toggle-whitespace": {
+      "fontCharacter": "\\ec4a"
+    },
+    "diff-added": {
+      "fontCharacter": "\\ec86"
+    },
+    "diff-insert": {
+      "fontCharacter": "\\ec86"
+    },
+    "diff-remove": {
+      "fontCharacter": "\\ebf8"
+    },
+    "diff-removed": {
+      "fontCharacter": "\\ebf8"
+    },
+    "diff-review-close": {
+      "fontCharacter": "\\eddb"
+    },
+    "diff-review-insert": {
+      "fontCharacter": "\\ec86"
+    },
+    "diff-review-remove": {
+      "fontCharacter": "\\ebf8"
+    },
+    "discard": {
+      "fontCharacter": "\\e982"
+    },
+    "edit": {
+      "fontCharacter": "\\ec56"
+    },
+    "edit-sessions-view-icon": {
+      "fontCharacter": "\\ea49"
+    },
+    "empty-window": {
+      "fontCharacter": "\\ed49"
+    },
+    "error": {
+      "fontCharacter": "\\eddc"
+    },
+
+    "exclude": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eacf"
+    },
+    "expand-all": {
+      "fontCharacter": "\\ec89"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\eafa"
+    },
+    "extension-activation-time": {
+      "fontCharacter": "\\ea46"
+    },
+    "extensions-clear-search-results": {
+      "fontCharacter": "\\e98d"
+    },
+    "extensions-configure-recommended": {
+      "fontCharacter": "\\ec56"
+    },
+    "extensions-editor-label-icon": {
+      "fontCharacter": "\\ecce"
+    },
+    "extensions-error-message": {
+      "fontCharacter": "\\eddc"
+    },
+    "extensions-filter": {
+      "fontCharacter": "\\eb3b"
+    },
+    "extensions-info-message": {
+      "fontCharacter": "\\eba7"
+    },
+    "extensions-install-count": {
+      "fontCharacter": "\\ea49"
+    },
+    "extensions-install-local-in-remote": {
+      "fontCharacter": "\\ea49"
+    },
+    "extensions-install-workspace-recommended": {
+      "fontCharacter": "\\ea49"
+    },
+    "extensions-manage": {
+      "fontCharacter": "\\eb44"
+    },
+    "extensions-pre-release": {
+      // cards
+      "fontCharacter": "\\e9f0"
+    },
+    "extensions-rating": {
+      "fontCharacter": "\\ed28"
+    },
+    "extensions-refresh": {
+      "fontCharacter": "\\e938"
+    },
+    "extensions-remote": {
+      // caret-double-right
+      "fontCharacter": "\\e9fc"
+    },
+    "extensions-sponsor": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eb8b"
+    },
+    "extensions-star-empty": {
+      "fontCharacter": "\\ed28"
+    },
+    "extensions-star-full": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed29"
+    },
+    "extensions-star-half": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed2b"
+    },
+    "extensions-sync-enabled": {
+      "fontCharacter": "\\ea4b"
+    },
+    "extensions-sync-ignored": {
+      "fontCharacter": "\\ea50"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\ea3e"
+    },
+    "extensions-verified-publisher": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ecc3"
+    },
+    "extensions-warning-message": {
+      "fontCharacter": "\\edbf"
+    },
+    "extension-workspace-trust": {
+      "fontCharacter": "\\ecd3"
+    },
+    "file": {
+      "fontCharacter": "\\eae2"
+    },
+    // "file-add": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-binary": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-code": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-directory": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-directory-create": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-media": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-pdf": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-submodule": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-symlink-directory": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-symlink-file": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-text": {
+    //   "fontCharacter": "\\e030"
+    // },
+    // "file-zip": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "files": {
+      "fontCharacter": "\\eafa"
+    },
+    "find-collapsed": {
+      "fontCharacter": "\\ea00"
+    },
+    "find-expanded": {
+      "fontCharacter": "\\e9fe"
+    },
+    "find-filter": {
+      "fontCharacter": "\\eb3b"
+    },
+    "find-next-match": {
+      "fontCharacter": "\\e93a"
+    },
+    "find-previous-match": {
+      "fontCharacter": "\\e97d"
+    },
+    "find-replace": {
+      "fontCharacter": "\\e92e"
+    },
+    "find-replace-all": {
+      "fontCharacter": "\\e926"
+    },
+    "find-selection": {
+      // cursor-text
+      "fontCharacter": "\\ea8d"
+    },
+    "folding-collapsed": {
+      "fontCharacter": "\\ea00"
+    },
+    "folding-expanded": {
+      "fontCharacter": "\\e9fe"
+    },
+    "folding-manual-collapsed": {
+      "fontCharacter": "\\ea00"
+    },
+    "folding-manual-expanded": {
+      "fontCharacter": "\\e9fe"
+    },
+    "getting-started-beginner": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ebba"
+    },
+    "getting-started-setup": {
+      "fontCharacter": "\\ebbd"
+    },
+    "getting-started-step-checked": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ea30"
+    },
+    "getting-started-step-unchecked": {
+      "fontCharacter": "\\ea37"
+    },
+    "git-branch": {
+      "fontCharacter": "\\eb4f"
+    },
+    "git-branch-create": {
+      "fontCharacter": "\\eb4f"
+    },
+    "git-branch-delete": {
+      "fontCharacter": "\\e98d"
+    },
+    "git-commit": {
+      "fontCharacter": "\\eb50"
+    },
+    "git-compare": {
+      "fontCharacter": "\\eb51"
+    },
+    "git-fetch": {
+      "fontCharacter": "\\e95d"
+    },
+    "git-fork-private": {
+      "fontCharacter": "\\eb52"
+    },
+    "git-merge": {
+      "fontCharacter": "\\eb56"
+    },
+    "git-pull-request": {
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-abandoned": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-assignee": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-closed": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-create": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-draft": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-go-to-changes": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-label": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-milestone": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-new-changes": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "git-pull-request-reviewer": {
+      // FIXME: choose better
+      "fontCharacter": "\\eb57"
+    },
+    "gitlens-graph": {
+      "fontCharacter": "\\eb1c"
+    },
+    "gitlens-switch": {
+      "fontCharacter": "\\e92f"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\eafa"
+    },
+    "goto-next-location": {
+      "fontCharacter": "\\e93a"
+    },
+    "goto-previous-location": {
+      "fontCharacter": "\\e97d"
+    },
+    "keybindings-add": {
+      "fontCharacter": "\\ec86"
+    },
+    "keybindings-edit": {
+      "fontCharacter": "\\ec56"
+    },
+    // "keybindings-editor-label-icon": {
+    //   "fontId": "phosphor",
+    //   "fontCharacter": "\\ea62"
+    // },
+    "keybindings-record-keys": {
+      "fontCharacter": "\\ea62"
+    },
+    "keybindings-sort": {
+      "fontCharacter": "\\ed06"
+    },
+    "list-flat": {
+      "fontCharacter": "\\ebca"
+    },
+    "list-tree": {
+      "fontCharacter": "\\ed90"
+    },
+    "lock": {
+      "fontCharacter": "\\ebd1"
+    },
+    "loaded-scripts-view-icon": {
+      "fontCharacter": "\\e97d"
+    },
+    "marker-navigation-next": {
+      "fontCharacter": "\\e93a"
+    },
+    "marker-navigation-previous": {
+      "fontCharacter": "\\ea01"
+    },
+    "markers-view-icon": {
+      "fontCharacter": "\\edbf"
+    },
+    "markers-view-filter": {
+      "fontCharacter": "\\eb3b"
+    },
+    "markers-view-multi-line-collapsed": {
+      "fontCharacter": "\\e9fe"
+    },
+    "markers-view-multi-line-expanded": {
+      "fontCharacter": "\\ea01"
+    },
+    "new-file": {
+      "fontCharacter": "\\eaf6"
+    },
+    "new-folder": {
+      "fontCharacter": "\\eb2a"
+    },
+    "notebook-clear": {
+      "fontCharacter": "\\e98d"
+    },
+    "notebook-collapsed": {
+      "fontCharacter": "\\ea00"
+    },
+    "notebook-copy": {
+      "fontCharacter": "\\ea6b"
+    },
+    "notebook-delete-cell": {
+      "fontCharacter": "\\ed8a"
+    },
+    "notebook-diff-editor-next-change": {
+      "fontCharacter": "\\e93a"
+    },
+    "notebook-diff-editor-previous-change": {
+      "fontCharacter": "\\e97d"
+    },
+    "notebook-edit": {
+      "fontCharacter": "\\ec56"
+    },
+    "notebook-execute": {
+      "fontCharacter": "\\ec7e"
+    },
+    // "notebook-execute-above": {
+    //   "fontCharacter": "\\TODO"
+    // },
+
+    "panel-layout-icon": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed1d"
+    },
+    "panel-layout-icon-off": {
+      "fontCharacter": "\\ed22"
+    },
+    "panel-left": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ece6"
+    },
+    "panel-left-off": {
+      "fontCharacter": "\\ece6"
+    },
+    "panel-right": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed1e"
+    },
+    "panel-right-off": {
+      "fontCharacter": "\\ed22"
+    },
+
+    "preserve-case": {
+      "fontCharacter": "\\ed5d"
+    },
+    "record": {
+      "fontCharacter": "\\ecab"
+    },
+
+    "refresh": {
+      "fontCharacter": "\\e938"
+    },
+    "regex": {
+      "fontCharacter": "\\e987"
+    },
+
+    // "remote-explorer": {
+    //   "fontCharacter": "\\e030"
+    // },
+    "remote-explorer-documentation": {
+      "fontCharacter": "\\e9c7"
+    },
+    "remote-explorer-feedback": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed98"
+    },
+    "remote-explorer-get-started": {
+      "fontCharacter": "\\ed28"
+    },
+    "remote-explorer-report-issues": {
+      "fontCharacter": "\\ea21"
+    },
+    "remote-explorer-review-issues": {
+      "fontCharacter": "\\edc0"
+    },
+    "remote-explorer-view-icon": {
+      "fontCharacter": "\\e91f"
+    },
+    "remove": {
+      "fontCharacter": "\\eddb"
+    },
+    "remove-close": {
+      "fontCharacter": "\\eddb"
+    },
+    "save": {
+      "fontCharacter": "\\eb1a"
+    },
+    "save-all": {
+      "fontCharacter": "\\eb1a"
+    },
+    "save-as": {
+      "fontCharacter": "\\eb1a"
+    },
+    "search-replace": {
+      "fontCharacter": "\\e966"
+    },
+    "search-replace-all": {
+      "fontCharacter": "\\ed42"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\ebdd"
+    },
+
+    "settings-more-action": {
+      "fontCharacter": "\\eb44"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\eb44"
+    },
+    "source-control": {
+      "fontCharacter": "\\eb4f"
+    },
+
+    "sparkle": {
+      "fontCharacter": "\\ed0a"
+    },
+
+    "split-horizontal": {
+      "fontCharacter": "\\ed21"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\ed22"
+    },
+
+    "symbol-array": {
+      "fontCharacter": "\\e9d0"
+    },
+    "symbol-boolean": {
+      "fontCharacter": "\\ea34"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\ea7a"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\ed43"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\eaca"
+    },
+    "symbol-constructor": {
+      "fontCharacter": "\\eb3a"
+    },
+    "symbol-customcolor": {
+      "fontCharacter": "\\ed43"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\ebcf"
+    },
+    "symbol-enum-member": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eaab"
+    },
+    "symbol-event": {
+      "fontCharacter": "\\ea42"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\ebcb"
+    },
+    "symbol-file": {
+      "fontCharacter": "\\eae2"
+    },
+    "symbol-folder": {
+      "fontCharacter": "\\eb21"
+    },
+    "symbol-function": {
+      "fontCharacter": "\\eb3a"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\ea7b"
+    },
+    "symbol-key": {
+      "fontCharacter": "\\ebae"
+    },
+    "symbol-keyword": {
+      "fontCharacter": "\\ebd1"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\eb3a"
+    },
+    "symbol-misc": {
+      "fontCharacter": "\\eb91"
+    },
+    "symbol-module": {
+      "fontCharacter": "\\e9ce"
+    },
+    "symbol-namespace": {
+      "fontCharacter": "\\e9ce"
+    },
+    "symbol-null": {
+      "fontCharacter": "\\ec7b"
+    },
+    "symbol-number": {
+      "fontCharacter": "\\eb85"
+    },
+    "symbol-numeric": {
+      "fontCharacter": "\\eb85"
+    },
+    "symbol-object": {
+      "fontCharacter": "\\ea7a"
+    },
+    "symbol-operator": {
+      "fontCharacter": "\\ebe7"
+    },
+    "symbol-package": {
+      "fontCharacter": "\\ec3c"
+    },
+    "symbol-parameter": {
+      "fontCharacter": "\\ea5c"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\ebcb"
+    },
+    "symbol-reference": {
+      "fontCharacter": "\\e987"
+    },
+    "symbol-ruler": {
+      "fontCharacter": "\\ecbb"
+    },
+    "symbol-snippet": {
+      "fontCharacter": "\\eca1"
+    },
+    "symbol-string": {
+      "fontCharacter": "\\ed6b"
+    },
+    "symbol-struct": {
+      "fontCharacter": "\\e9ce"
+    },
+    "symbol-structure": {
+      "fontCharacter": "\\e9ce"
+    },
+    "symbol-text": {
+      "fontCharacter": "\\ed6b"
+    },
+    "symbol-type-parameter": {
+      "fontCharacter": "\\ea5c"
+    },
+    "symbol-unit": {
+      "fontCharacter": "\\e9cf"
+    },
+    "symbol-value": {
+      "fontCharacter": "\\eddb"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\eddb"
+    },
+
+    "sync": {
+      "fontCharacter": "\\e95d"
+    },
+
+    "terminal": {
+      "fontCharacter": "\\ed55"
+    },
+    "testing-cancel-icon": {
+      "fontCharacter": "\\ed32"
+    },
+    "testing-cancel-refresh-tests": {
+      "fontCharacter": "\\eddc"
+    },
+    "testing-continuous-is-on": {
+      "fontCharacter": "\\ead2"
+    },
+    "testing-coverage": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ebba"
+    },
+    "testing-coverage-all-icon": {
+      "fontCharacter": "\\e030"
+    },
+    "testing-coverage-icon": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\eb8b"
+    },
+    "testing-error-icon": {
+      "fontCharacter": "\\edc0"
+    },
+
+    "timeline-filter": {
+      "fontCharacter": "\\eb3b"
+    },
+    "timeline-open": {
+      "fontCharacter": "\\e030"
+    },
+    "timeline-pin": {
+      "fontCharacter": "\\ec99"
+    },
+    "timeline-refresh": {
+      "fontCharacter": "\\e938"
+    },
+    "timeline-unpin": {
+      "fontCharacter": "\\ec9c"
+    },
+    "timeline-view-icon": {
+      "fontCharacter": "\\e030"
+    },
+    "toolbar-more": {
+      "fontCharacter": "\\eaaf"
+    },
+    "vm": {
+      "fontCharacter": "\\ea90"
+    },
+    "warning": {
+      "fontCharacter": "\\edbf"
+    },
+    "whole-word": {
+      "fontId": "phosphor-fill",
+      "fontCharacter": "\\ed57"
+    },
+    "wrench": {
+      "fontCharacter": "\\edda"
+    }
+  }
+}

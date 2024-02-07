@@ -1,30 +1,70 @@
 {
-  "name": "@phosphor-icons/theme",
+  "name": "phosphor-theme",
   "displayName": "Phosphor Theme",
   "description": "A dark theme for VS Code from the Phosphor Icons team",
-  "version": "0.0.1",
+  "publisher": "phosphor-icons",
+  "author": {
+    "name": "Tobias Fried",
+    "email": "friedtm@gmail.com"
+  },
+  "icon": "meta/phosphor-mark-tight-black.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phosphor-icons/theme.git"
+  },
+  "homepage": "https://github.com/phosphor-icons/theme",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.82.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "product-icon-theme",
+    "file-icon-theme",
+    "phosphor"
+  ],
+  "files": [
+    "assets",
+    "meta",
+    "themes"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
   "contributes": {
     "themes": [
       {
+        "id": "phosphor-dark",
         "label": "Phosphor Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/ph-dark.color-theme.json"
       },
       {
+        "id": "phosphor-dark-min",
         "label": "Phosphor Dark Min",
         "uiTheme": "vs-dark",
         "path": "./themes/ph-dark-min.color-theme.json"
-      },
+      }
+    ],
+    "iconThemes": [
       {
-        "label": "Phosphor Dark Saturated",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ph-dark-saturated.color-theme.json"
+        "id": "phosphor",
+        "label": "Phosphor",
+        "path": "./themes/ph-file-icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "phosphor",
+        "label": "Phosphor",
+        "path": "./themes/ph-product-icon-theme.json"
       }
     ]
   }

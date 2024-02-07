@@ -1,0 +1,292 @@
+{
+  "hidesExplorerArrows": true,
+  "fonts": [
+    {
+      "id": "phosphor",
+      "src": [
+        {
+          "path": "../assets/Phosphor.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal",
+      "size": "140%"
+    }
+  ],
+  "iconDefinitions": {
+    "_file": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eae2"
+    },
+    "_folder": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb21"
+    },
+    "_folder_open": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb29"
+    },
+
+    "_android": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\e919"
+    },
+    "_brackets_angle": {
+      "fontCharacter": "\\e9cd"
+    },
+    "_brackets_curly": {
+      "fontCharacter": "\\e9ce"
+    },
+    "_brackets_round": {
+      "fontCharacter": "\\e9cf"
+    },
+    "_brackets_square": {
+      "fontCharacter": "\\e9d0"
+    },
+    "_file_archive": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eae3"
+    },
+    "_file_code": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eae8"
+    },
+    "_file_css": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eae9"
+    },
+    "_file_csv": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaea"
+    },
+    "_file_doc": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaec"
+    },
+    "_file_xls": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb03"
+    },
+    "_file_html": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaed"
+    },
+    "_file_image": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaee"
+    },
+    "_file_js": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf0"
+    },
+    "_file_jsx": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf1"
+    },
+    "_file_lock": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf2"
+    },
+    "_file_ts": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eafe"
+    },
+    "_file_tsx": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaff"
+    },
+    "_file_pdf": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf5"
+    },
+    "_file_ppt": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf8"
+    },
+    "_file_rs": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eaf9"
+    },
+    "_file_sql": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eafb"
+    },
+    "_file_text": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eafd"
+    },
+    "_file_audio": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eae5"
+    },
+    "_file_video": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb00"
+    },
+    "_file_vue": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb01"
+    },
+    "_floppy_disk": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\eb1a"
+    },
+    "_package": {
+      "fontId": "phosphor",
+      "fontCharacter": "\\ec3c"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "folderNames": {
+    // ".vscode": "_vscode_folder"
+  },
+  "fileExtensions": {
+    "apk": "_android",
+    "aab": "_android",
+
+    "css": "_file_css",
+
+    "csv": "_file_csv",
+
+    "doc": "_file_doc",
+    "docx": "_file_doc",
+    "pages": "_file_doc",
+
+    "env": "_file_lock",
+    "lock": "_file_lock",
+
+    "html": "_file_html",
+
+    "jpg": "_file_image",
+    "jpeg": "_file_image",
+    "png": "_file_image",
+    "bmp": "_file_image",
+    "tiff": "_file_image",
+    "gif": "_file_image",
+    "webp": "_file_image",
+    "heif": "_file_image",
+    "avif": "_file_image",
+    "ppm": "_file_image",
+    "pgm": "_file_image",
+    "pbm": "_file_image",
+    "pnm": "_file_image",
+    "ico": "_file_image",
+    "svg": "_file_image",
+
+    "mp3": "_file_audio",
+    "ogg": "_file_audio",
+    "oga": "_file_audio",
+    "mogg": "_file_audio",
+    "opus": "_file_audio",
+    "flac": "_file_audio",
+    "alac": "_file_audio",
+    "aac": "_file_audio",
+    "aax": "_file_audio",
+    "aiff": "_file_audio",
+    "m4a": "_file_audio",
+    "m4b": "_file_audio",
+    "m4p": "_file_audio",
+    "ra": "_file_audio",
+    "rm": "_file_audio",
+    "raw": "_file_audio",
+    "wav": "_file_audio",
+
+    "mp4": "_file_video",
+    "m4v": "_file_video",
+    "mkv": "_file_video",
+    "flv": "_file_video",
+    "ogv": "_file_video",
+    "gifv": "_file_video",
+    "avi": "_file_video",
+    "wmv": "_file_video",
+    "mpg": "_file_video",
+    "mpeg": "_file_video",
+    "mp2": "_file_video",
+    "mpv": "_file_video",
+    "3gp": "_file_video",
+    "3g2": "_file_video",
+    "webm": "_file_video",
+
+    "iso": "_floppy_disk",
+    "cso": "_floppy_disk",
+    "img": "_floppy_disk",
+    "cue": "_floppy_disk",
+    "mdf": "_floppy_disk",
+    "mds": "_floppy_disk",
+    "nrg": "_floppy_disk",
+    "dmg": "_floppy_disk",
+    "vfd": "_floppy_disk",
+    "dvd": "_floppy_disk",
+    "rom": "_floppy_disk",
+
+    "js": "_file_js",
+    "cjs": "_file_js",
+    "mjs": "_file_js",
+
+    "jsx": "_file_jsx",
+
+    "json": "_brackets_curly",
+    "toml": "_brackets_curly",
+    "yml": "_brackets_curly",
+    "yaml": "_brackets_curly",
+
+    "pgk": "_package",
+
+    "pdf": "_file_pdf",
+
+    "ppt": "_file_ppt",
+    "pptx": "_file_ppt",
+
+    "ts": "_file_ts",
+
+    "tsx": "_file_tsx",
+
+    "txt": "_file_text",
+    "md": "_file_text",
+
+    "vue": "_file_vue",
+
+    "xls": "_file_xls",
+    "xlsx": "_file_xls",
+    "rs": "_file_rs",
+
+    "zip": "_file_archive",
+    "a": "_file_archive",
+    "ar": "_file_archive",
+    "tar": "_file_archive",
+    "tgz": "_file_archive",
+    "br": "_file_archive",
+    "bz2": "_file_archive",
+    "gz": "_file_archive",
+    "lz": "_file_archive",
+    "lz4": "_file_archive",
+    "rz": "_file_archive",
+    "sz": "_file_archive",
+    "xz": "_file_archive",
+    "z": "_file_archive",
+    "7z": "_file_archive",
+    "s7z": "_file_archive",
+    "aar": "_file_archive",
+    "rar": "_file_archive",
+    "xar": "_file_archive",
+    "zz": "_file_archive"
+  },
+  "fileNames": {
+    // "win.ini": "_win_ini_file"
+  },
+  "languageIds": {
+    // "ini": "_ini_file"
+  }
+  //   "light": {
+  //     "folderExpanded": "_folder_open_light",
+  //     "folder": "_folder_light",
+  //     "file": "_file_light",
+  //     "fileExtensions": {
+  //       "ini": "_ini_file_light"
+  //     }
+  //   },
+  //   "highContrast": {}
+}
