@@ -13,7 +13,10 @@
     "url": "https://github.com/phosphor-icons/theme.git"
   },
   "homepage": "https://github.com/phosphor-icons/theme",
-  "version": "0.1.0",
+  "sponsor": {
+    "url": "https://www.buymeacoffee.com/phosphoricons"
+  },
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.82.0"
   },
