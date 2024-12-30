@@ -1,6 +1,9 @@
-<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/phosphor-mark-tight-black.png" width="128" align="right" />
 
 # @phosphor-icons/theme
+
+<!-- BEGIN_LOGO -->
+<img src="/.github/phosphor-mark-tight-black.png" width="128" align="right" />
+<!-- END_LOGO -->
 
 [![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/phosphor-icons.phosphor-theme?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=phosphor-icons.phosphor-theme)
 [![GitHub stars](https://img.shields.io/github/stars/phosphor-icons/theme?style=flat-square&label=Star)](https://github.com/phosphor-icons/theme)
@@ -17,11 +20,11 @@
 
 ### Phosphor Dark
 
-<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/theme-dark.png" />
+<img src="/.github/theme-dark.png" />
 
 ### Phosphor Dark Min
 
-<img src="https://github.com/phosphor-icons/theme/raw/HEAD/meta/theme-min.png" />
+<img src="/.github/theme-min.png" />
 
 <!-- BEGIN_LINKS -->
 ## Our Projects
